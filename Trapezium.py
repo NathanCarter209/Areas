@@ -1,0 +1,5 @@
+sideA = float(input("Enter sideA : "))
+sideB = float(input("Enter sideB : "))
+Height = float(input("Enter Height : "))
+Area = 0.5 * Height * (sideB + sideA)
+print("Area of Trapezium : ",'%.2f'%Area)
